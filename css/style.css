@@ -145,6 +145,10 @@ input[placeholder="Required"] {
 	text-align: right;
 }
 
+#zipcode {
+	width: 50%;
+}
+
 label {
   display: block;
   margin-bottom: 8px;
@@ -154,6 +158,10 @@ label {
 
 label.check {
 	display: inline;
+}
+
+label[for="topics"] {
+	margin: 20px 0;
 }
 
 select {
@@ -244,6 +252,12 @@ input[type="radio"]:checked {
 	.second_field,
 	button {
 		margin: auto;
+	}
+	
+	#zipcode {
+		margin-left: 10.625em;
+		float: none;
+		width: 35%;
 	}
 	
 	.copyright {
